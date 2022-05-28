@@ -1,4 +1,4 @@
-![Ejercicios en C++](https://www.softzone.es/app/uploads-softzone.es/2022/04/Programacion-C-Cplusplus-csharp.jpg?x=480&y=375&quality=40) 
+![Ejercicios en C++](            https://www.softzone.es/app/uploads-softzone.es/2022/04/Programacion-C-Cplusplus-csharp.jpg?x=480&y=375&quality=40) 
 ### Programas en c++ de Girón Genesis
 ## Informacion del Autor 
 
@@ -20,9 +20,10 @@
 ### Descripcion del programa 
 Este programa en c++ permite comparar dos numeros y determinar si son igual o cual es el mayor.
 ### Funcionalidad 
-Despues de la explicacion que obtuvimos al inicio para cada uno de los programas.
+Despues de la explicacion que obtuvimos al inicio para cada uno de los programas.Seguimos con:
 
- El segundo paso 
+2.  El segundo paso debemos declarar las variables.
+`
 
 
 ## Suma de varios numeros
