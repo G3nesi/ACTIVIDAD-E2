@@ -1,3 +1,4 @@
+![Ejercicios en C++](https://www.softzone.es/app/uploads-softzone.es/2022/04/Programacion-C-Cplusplus-csharp.jpg?x=480&y=375&quality=40) 
 ### Programas en c++ de Girón Genesis
 ## Informacion del Autor 
 
@@ -6,21 +7,22 @@
 `Correo: genesis.giron.lipu@utelvt.edu.ec`
 
 ### Programas 
+## Funcionalidad para todos los programas 
+ utilizamos las librerias para generar operaciones de entrada/salida. Ademas utilizamos "using namespace" debido que  sirve para distinguir entre funciones que puedan llegar a tener un nombre similar en dos bibliotecas diferentes.
 
-## Compara de dos numeros 
-### Descripcion del programa 
-Este programa en c++ permite comparar dos numeros y determinar si son igual o cual es el mayor.
-### Funcionalidad 
- utilizamos la libreria `<iostream>` para generar operaciones de entrada/salida.
-  
 `#include<iostream>`
-
-Utilizamos "using namespace" debido que  sirve para distinguir entre funciones que puedan llegar a tener un nombre similar en dos bibliotecas diferentes
 
 `using namespace std;`
 
-
 `int main ()`
+## Compara de dos numeros 
+
+### Descripcion del programa 
+Este programa en c++ permite comparar dos numeros y determinar si son igual o cual es el mayor.
+### Funcionalidad 
+Despues de la explicacion que obtuvimos al inicio para cada uno de los programas.
+
+ El segundo paso 
 
 
 ## Suma de varios numeros
