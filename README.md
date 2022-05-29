@@ -58,7 +58,15 @@ Despues de la explicacion que obtuvimos al inicio para cada uno de los programas
  
 `cout<<"el valor de GG_A="<< GG_A<<" es igual a GG_B  "<<GG_B<<endl;`
 
-5. Proceso de salida.
+5. Mostramos por pantalla.
+
+`cout<<"el valor de GG_A=" <<GG_A<<"es menor a GG_B= "<<GG_B<<endl;`
+
+`}else{`
+
+`cout<<"el valor de GG_B="<<GG_B<<"es menor a  GG_A= "<<GG_A<<endl;`
+	}
+### Salida.
  
  La instrucción return provoca que la ejecución abandone la función main.
  
@@ -106,7 +114,11 @@ Utilizaremos la sentencia do-while se utiliza para especificar un ciclo condicio
  
  `}while (GG_c<GG_n);`
  
- 5. Proceso de salida.
+ 5. Mostramos por pantalla.
+
+ `cout<<"La suma de los elementos fue : "<<GG_s<<endl; `
+ 
+ ### Salida.
  
  La instrucción return provoca que la ejecución abandone la función main.
  
@@ -157,8 +169,12 @@ Pero en este caso usaremos los condicionales if-else,son una estructura de contr
  `GG_ma=GG_ma-1;`
          
  `GG_d=GG_da-GG_dn;`
+ 
+ 5. Mostrar por pantalla.
+
+cout<<"Usted tiene: " <<GG_a<< "años" <<GG_m<< "meses" "y" <<GG_d<< "dias";
 	
-5. Proceso de salida.
+### Salida.
  
  La instrucción return provoca que la ejecución abandone la función main.
  
@@ -217,7 +233,11 @@ Utilizaremos la sentencia do-while se utiliza para especificar un ciclo condicio
 
 `}while(GG_c<GG_P);`
 
-5. Proceso de salida.
+5. Mostrar por pantalla.
+
+`cout<<"El valor final es de:$ "<<GG_vf<<endl;`
+
+### Salida.
  
  La instrucción return provoca que la ejecución abandone la función main.
  
@@ -281,7 +301,23 @@ Utilizaremos la sentencia do-while se utiliza para especificar un ciclo condicio
 
 `}while(GG_c<GG_n);`
 
-5. Proceso de salida.
+5. Mostrar por pantalla.
+
+`cout<<"El resultado fue:"<<endl;`
+
+`cout<<"Cantidad de monedas ingresadas : "<<GG_c<<endl;`
+
+`cout<<"Cantidad total en dinero contado : "<<GG_a<<endl;`
+
+`cout<<"Cantidad de monedas de 0.10c ingresadas : "<<GG_c1<<endl;`
+
+`cout<<"Cantidad total en dinero de monedas de 0.10cc : "<<GG_a1<<endl;`
+
+`cout<<"Cantidad de monedas de 0.25cc ingresadas : "<<GG_c2<<endl;`
+
+`cout<<"Cantidad total en dinero de mpnedas de 0.25cc : "<<GG_a2<<endl;`
+
+### Salida.
  
  La instrucción return provoca que la ejecución abandone la función main.
  
