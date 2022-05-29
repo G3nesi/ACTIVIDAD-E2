@@ -142,7 +142,7 @@ Este programa en c++ permite calcular la edad de una persona a partir del año a
 `	cin>>GG_dn>>GG_mn>>GG_an;`
 
 4. Realizamos el proceso.
-Pero en este caso usaremos los condicionales if-else,son una estructura de control, que nos permiten tomar cierta decisión al interior de nuestro algoritmo, es decir, nos permiten determinar que acciones tomar dada o no cierta condició
+Pero en este caso usaremos los condicionales if-else,son una estructura de control, que nos permiten tomar cierta decisión al interior de nuestro algoritmo, es decir, nos permiten determinar que acciones tomar dada o no cierta condición.
 
 `if(GG_da>=GG_dn){`
 
@@ -179,8 +179,49 @@ Este programa en c++ permite ingresar la cantidad de los productos a adquirir in
 
 `int main ()`
 
-2. 
+2. Declaramos las variables en la que vamos a almacenar los datos.
 
+`int GG_c=0, GG_P;`
+
+`float GG_a=0, GG_x, GG_tb, GG_viva, GG_vdes, GG_iva=0.12, GG_des=0.30, GG_vf;`
+
+3. Pedimos al usuario que lea y ingrese la cantidad de productos.
+
+`cout<<"Ingrese la cantidad de productos: ";`
+
+`cin>>GG_P;`
+
+4. Realizamos el proceso.
+
+Utilizaremos la sentencia do-while se utiliza para especificar un ciclo condicional que se ejecuta al menos una vez.
+
+`do{`
+
+`cout<<"Ingrese el valor de los productos: ";`
+
+`cin>>GG_x;`
+
+`GG_c=GG_c+1;`
+
+`GG_a=GG_a+GG_x;`
+
+`GG_viva=GG_a*GG_iva;`
+
+`cout<<"El valor del iva de la compra es de: $"<<GG_viva<<endl;`
+
+`GG_vdes=GG_a*GG_des;`
+
+`cout<<"El valor del descuento de su compra es de:$"<<GG_vdes<<endl;`
+
+`GG_tb=GG_viva+GG_vdes;`
+
+`}while(GG_c<GG_P);`
+
+5. Proceso de salida.
+ 
+ La instrucción return provoca que la ejecución abandone la función main.
+ 
+`return 0;`
 
 ## Cuenta moneda
 
@@ -198,6 +239,53 @@ Este programa c++ permite ingresar el numero de monedas, para luego contar la ca
 
 `int main ()`
 
+2. Declaramos las variables en la que vamos a almacenar los datos.
+
+`int GG_n, GG_c=0, GG_c1=0, GG_c2=0;`
+
+`float GG_x, GG_a=0, GG_a1=0, GG_a2=0;`
+
+3. Pedimos al usuario que lea y ingrese la cantidad de monedas.
+
+`cout<<"Cantidad de monedas a ingresar : ";`
+
+`cin>>GG_n;`
+
+4. Realizamos el proceso.
+
+Utilizaremos la sentencia do-while se utiliza para especificar un ciclo condicional que se ejecuta. Ademas  en este caso usaremos los condicionales if-else,son una estructura de control, que nos permiten tomar cierta decisión al interior de nuestro algoritmo, es decir, nos permiten determinar que acciones tomar dada o no cierta condición.
+
+`do{`
+
+`cout<<"Ingrese el valor de la moneda (0.10,0.25) :";`
+
+`cin>>GG_x;`
+
+`GG_c=GG_c+1;`
+
+`GG_a=GG_a+GG_x;`
+
+`if(GG_x==0.10){`
+
+`GG_c1=GG_c1+1;`
+
+`GG_a1=GG_a1+GG_x;`
+
+`}else{`
+
+`GG_c2=GG_c2+1;`
+
+`GG_a2=GG_a2+GG_x;`
+
+`}`
+
+`}while(GG_c<GG_n);`
+
+5. Proceso de salida.
+ 
+ La instrucción return provoca que la ejecución abandone la función main.
+ 
+`return 0;`
 
 ## Instalacion 
 
