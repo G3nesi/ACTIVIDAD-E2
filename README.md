@@ -8,7 +8,7 @@
 
 ### Programas 
 ## Funcionalidad para todos los programas 
- utilizamos las librerias para generar operaciones de entrada/salida. Ademas utilizamos "using namespace" debido que  sirve para distinguir entre funciones que puedan llegar a tener un nombre similar en dos bibliotecas diferentes.
+ Utilizamos las librerias para generar operaciones de entrada/salida. Ademas utilizamos "using namespace" debido que  sirve para distinguir entre funciones que puedan llegar a tener un nombre similar en dos bibliotecas diferentes.
 
 `#include<iostream>`
 
