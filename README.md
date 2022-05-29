@@ -158,7 +158,11 @@ Pero en este caso usaremos los condicionales if-else,son una estructura de contr
          
  `GG_d=GG_da-GG_dn;`
 	
-
+5. Proceso de salida.
+ 
+ La instrucción return provoca que la ejecución abandone la función main.
+ 
+`return 0;`
 
 ## Punto de venta
 
@@ -174,6 +178,8 @@ Este programa en c++ permite ingresar la cantidad de los productos a adquirir in
 `using namespace std;`
 
 `int main ()`
+
+2. 
 
 
 ## Cuenta moneda
