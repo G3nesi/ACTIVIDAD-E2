@@ -39,7 +39,9 @@ Despues de la explicacion que obtuvimos al inicio para cada uno de los programas
 
 2.  El segundo paso debemos declarar las variables.
 
-`float GG_A,GG_B;`// Utilizamos float para declarar una variable de tipo decimal o coma flotante.
+Utilizamos float para declarar una variable de tipo decimal o coma flotante.
+
+`float GG_A,GG_B;`
 
 3. Debemos pedir al usuario que ingrese y lea "GG_A" "GG_B"
 
