@@ -4,7 +4,7 @@
 
 `Autor: Genesis Paulina Giron Lupu`
 
-`Correo: genesis.giron.lipu@utelvt.edu.ec`
+`Correo: genesis.giron.lupu@utelvt.edu.ec`
 
 ### Programas 
 ## Funcionalidad para todos los programas 
@@ -15,6 +15,15 @@
 `using namespace std;`
 
 `int main ()`
+
+## Declaracion de variables
+
+En muchas ocaciones declararemos variables con "int" "float".
+
+Float: utilizamos para declarar una variable de tipo decimal o coma flotante.
+
+Int: utilizamos para almacenan números enteros.
+
 ## Compara de dos numeros 
 
 ### Descripcion del programa 
@@ -22,14 +31,46 @@ Este programa en c++ permite comparar dos numeros y determinar si son igual o cu
 ### Funcionalidad 
 Despues de la explicacion que obtuvimos al inicio para cada uno de los programas.Seguimos con:
 
-2.  El segundo paso debemos declarar las variables.
-`
+`#include<iostream>`
 
+`using namespace std;`
+
+`int main ()`
+
+2.  El segundo paso debemos declarar las variables.
+
+`float GG_A,GG_B;`// Utilizamos float para declarar una variable de tipo decimal o coma flotante.
+
+3. Debemos pedir al usuario que ingrese y lea "GG_A" "GG_B"
+
+`cout<<" ingrese GG_A: "; `
+
+ `cin>>GG_A;`
+
+ 
+ `cout<<" ingrese GG_B: ";`
+ 
+ `cin>>GG_B;`
+ 
+ 4. Realizamos el proceso.
+ 
+ `if(GG_A==GG_B){`
+ 
+`cout<<"el valor de GG_A="<< GG_A<<" es igual a GG_B  "<<GG_B<<endl;`
+
+5. Proceso de salida.
+ 
+ La instrucción return provoca que la ejecución abandone la función main.
+ 
+`return 0;`
 
 ## Suma de varios numeros
+
 ### Descripcion del programa 
 Este programa en c++ permite sumar varios numeros  donde el contador debe ser menor que la cantidad de números ingresados, para luego calcular la suma de cada número ingresado por teclado.
+
 ### Funcionalidad 
+
 
 ## Calcula la edad
 ### Descripcion del programa
